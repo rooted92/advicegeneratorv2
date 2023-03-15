@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200&family=Dosis&family=Fugaz+One&family=Gochi+Hand&family=Manrope:wght@800&family=Philosopher&family=Poor+Story&family=Roboto:wght@300;400&family=Rubik+Dirt&family=Source+Sans+Pro&family=Space+Mono&family=Special+Elite&display=swap');
+
+.adviceBox {
+    background-color: hsl(217, 19%, 24%);
+    max-width: 35rem;
+    min-height: auto;
+    margin: 8rem 2rem 15rem 2rem;
+    border-radius: 1.5rem;
+    /* using position relative to keep elements within container reletive to it's chaning height */
+    position: relative;
+}
+
+.adviceText {
+    font-size: 1.75rem;
+    color: hsl(193, 38%, 86%);
+    margin-bottom: 2rem;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+
+.slipIdText {
+    color: hsl(150, 100%, 66%);
+    letter-spacing: .3rem;
+}
+
+/* .desktopDivider {
+    margin-bottom: 5rem;
+    display: block;
+}
+
+.mobileDivider {
+    margin-bottom: 5rem;
+    display: none;
+} */
+
+.divider {
+    margin-bottom: 5rem;
+}
+
+/* Apply the following CSS rules only when the media type is a screen and the maximum width of the screen is equal to or less than 375px. */
+
+/* @media only screen and (max-width: 375px) {
+    .desktopDivider {
+        display: none !important;
+    }
+
+    .mobileDivider {
+        display: block;
+    }
+} */

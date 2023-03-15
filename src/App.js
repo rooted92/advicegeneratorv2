@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+// Pedro Castaneda
+// 03-14-2023
+// Description: In this assignment we are to replicate an Advice Generator website from frontendmentor.io. Using react and bootstrap I have replicated the design as close as possible to the one provided. The advice text comes from an API that generates a random piece of advice when fetched. Must be responsive for desktop and mobile.
+// Peer Reviewed by: 
+
+
+
+import Display from './components/display/Display';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Display />
     </div>
   );
 }

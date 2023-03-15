@@ -1,0 +1,15 @@
+.adviceBtn {
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    /* using position absolut to keep button in same location regardless of adviceBox current height */
+    position: absolute;
+    bottom: -2rem;
+}
+
+.adviceBtn:hover {
+    /* 25px and 5 px sets blur radius and length */
+    box-shadow: 0 0 25px 5px hsl(150, 100%, 66%);
+}
