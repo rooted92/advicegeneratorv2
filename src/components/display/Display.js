@@ -16,15 +16,15 @@ const Display = () => {
     const GetAdviceData = async () => {
         const response = await fetch("https://api.adviceslip.com/advice");
         const data = await response.json();// saving returned promise object to data variable
-        console.log(data);// test
+        // console.log(data);// test
         setAdvice(data.slip.advice);// saving advice data from api to advice variable
         setSlipID(data.slip.id);// saving id data from api to id variable
-        console.log('Ive been clicked!');// test
+        // console.log('Ive been clicked!');// test
     }
 
     // useEffect will invoke GetAdviceData and display data upon render
     useEffect(() => {
-        GetAdviceData()
+            GetAdviceData();
     }, []);
 
     return (
